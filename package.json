@@ -1,0 +1,26 @@
+{
+  "name": "dsh-skill-links",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "五技接线闸插件：把问元宝/视频转写/汉家美学官/错题官/VPS疆域五个skill的触发与铁律写成常驻提示；附接线清单与可用技工具，缺料当场报缺。",
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

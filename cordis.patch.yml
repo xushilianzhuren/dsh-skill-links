@@ -1,0 +1,10 @@
+# 五技接线闸 · 插件化（主人 2026-10-29 发来的五个 skill 压缩包）
+# 只接能跑的：错题→进化炉已接住·美学→验证炉已有审美验；视频转写缺 OCR 二进制；
+# 问元宝/VPS 缺登录态与凭据——后三者只报状态，不装活（护栏前置令）。
+- insert:
+    - id: ql-skills
+      name: 'dsh-skill-links'
+      config:
+        enabled: true
+        order: 160
+        tool: true
